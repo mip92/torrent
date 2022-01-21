@@ -1,0 +1,22 @@
+.root {
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.ganre {
+    /*background-color: lightgoldenrodyellow;*/
+    width: 310px;
+
+    /*text-align: center;*/
+}
+
+
+
+/*.img{
+    !*width: 180px;*!
+    border-radius: 5px 5px 5px 5px;
+}*/

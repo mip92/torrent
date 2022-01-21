@@ -1,0 +1,24 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: auto 3fr 1fr auto;
+    grid-template-rows: auto auto auto;
+    max-width: 1333px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    grid-area: 1 / 2 / 2 / 4;
+    align-self: auto;
+    justify-self: auto;
+}
+
+.sidebar {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+.content {
+    max-width: 1333px;
+    grid-area: 2 / 2 / 3 / 3;
+
+}

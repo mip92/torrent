@@ -1,0 +1,19 @@
+.card {
+    width: 25px;
+    height: 50px;
+    display: table;
+    text-align: center;
+}
+
+.value {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.currentCard {
+    width: 25px;
+    height: 50px;
+    display: table;
+    text-align: center;
+    background-color: #ffe0b2;
+}

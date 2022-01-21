@@ -1,0 +1,46 @@
+.root {
+    margin-top: 10px;
+    min-width: 150px;
+    background-color: #fdb201;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 25px auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.typography{
+    text-align: center;
+    grid-area: 1 / 1 / 2 / 4;
+}
+.logoEmail{
+    text-align: center;
+    grid-area: 2 / 1 / 3 / 2;
+}
+.logoPassword{
+    text-align: center;
+    grid-area: 3 / 1 / 4 / 2;
+}
+.email{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    grid-area: 2 / 2 / 3 / 4;
+}
+.password{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    grid-area: 3 / 2 / 4 / 4;
+}
+.login{
+    text-align: center;
+    grid-area: 4 / 1 / 4 / 4;
+}
+.forgotPassword{
+    text-align: center;
+    grid-area: 5 / 1 / 6 / 4;
+}
+.registration{
+    text-align: center;
+    grid-area: 6 / 1 / 7 / 4;
+}
